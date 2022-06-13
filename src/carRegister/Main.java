@@ -70,6 +70,7 @@ public class Main {
 		//accès direct sur des attributs d'un autre objet
 		//monParking.places.get(0).couleur = "noire";
 		System.out.println(voit3.getCouleur());
+		System.out.println("la voiture a " + voit3.getNbRoues() + " roues");
 	}
 	
 	
